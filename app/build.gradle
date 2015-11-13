@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId "dk.inventy.dk.rollespil"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 13
+        versionName "1.3"
+    }
+    buildTypes {
+        release {
+            apply plugin: 'antlr'
+            apply plugin: 'announce'
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.zxing:core:3.1.0'
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+}

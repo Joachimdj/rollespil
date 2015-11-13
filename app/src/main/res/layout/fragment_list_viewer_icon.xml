@@ -1,0 +1,51 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    tools:context="dk.inventy.dk.rollespil.ListViewerIcon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ticket_icon" >
+    </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/main_item_icon"
+        android:text="Title"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <TextView
+        android:id="@+id/sub_item_icon"
+        android:text="sub"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAppearance="@android:style/TextAppearance.Small"/>
+
+    </LinearLayout>
+
+</LinearLayout>

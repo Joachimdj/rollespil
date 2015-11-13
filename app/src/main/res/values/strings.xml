@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rollespil</string>
+    <string name="logout_button_text">Log ud</string>
+    <string name="user_hint">Mobilnummer</string>
+    <string name="password_hint">Kodeord</string>
+    <string name="login_button_hint">Login</string>
+    <string name="create_button_hint">Opret konto</string>
+    <string name="events_button">Events</string>
+    <string name="create_name_label">Navn</string>
+    <string name="create_username_label">Brugernavn</string>
+    <string name="create_email_label">Email</string>
+    <string name="create_mobile_label">Mobilnummer</string>
+    <string name="create_password_label">Password</string>
+    <string name="foreninger_button">Foreninger</string>
+    <string name="medlemskaber_button">Medlemskaber</string>
+    <string name="billetter_button">Billetter</string>
+    <string name="intro_title_one">Velkommen</string>
+    <string name="intro_text_one">Velkommen til ROLLE|SPIL appen. Her i appen kan du finde kommende events og foreninger, samt dine købte billetter og medlemskaber</string>
+    <string name="intro_title_two">Tilgå dine billetter og medlemskort!</string>
+    <string name="intro_text_two">Du kan tilgå dine billetter og medlemskaber online såvel som offline. For at tilgå dine data offline skal du blot sørge for at åbne listerne på forhånd</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_intro_slider">Velkommen</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
